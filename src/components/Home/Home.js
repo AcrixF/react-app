@@ -11,9 +11,8 @@ export default class Home extends Component {
     }
 
     componentDidMount = () => {
-        setTimeout(() => { this.setState({name:'Cristina'})}, 2000)
+        setTimeout(() => { this.setState({name:'Cristina'})}, 2000);
     }
-
 
     render = () =>
         <div className="Home">
